@@ -1,0 +1,122 @@
+body {
+	font-size: 20px;
+	font-family: Tahoma;
+	background-color: black;
+	text-align: center;
+}
+#main-cover {
+	background-image: url(../images/image1.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	width: 1200px;
+	height: 670px;	
+}
+h1, h2{
+	font-family: Papyrus;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+h2 {
+	font-size: 40px;
+	margin-top: 5px;
+}
+#content {
+	width: 700px;
+	height: 550px;
+	background-color: white;
+	position: absolute;
+	top: 40px;
+	left: 350px; 
+	border-radius: 50px;
+	opacity: 0.9;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E8A317;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 100px;
+}
+
+.button:hover {background-color: #40BFFF}
+
+.button:active {
+  background-color: #FF8040;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+p {
+	text-align: center;
+}
+#question {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+
+}
+#time-remaining {
+	font-weight: bold;
+}
+.container {
+	display: table;
+} 
+.cell {
+	display: table-cell;
+	vertical-align: top;
+} 
+.w-300 {
+	width: 100%;
+}
+#user-guess {
+	width: 350px;
+	text-align: center;
+}
+#user-guess img {
+	max-width: 200px;
+	max-height: 150px;
+}
+#answers-area {
+	width: 350px;
+}
+#selections.ul {
+	margin: auto;
+	max-width: 200px;
+}
+#selections li {
+	list-style: none;
+	max-width: 200px;
+	cursor: pointer;
+	text-align: center;
+}
+#selections li:hover {
+	background-color: #40BFFF;
+	border: solid black 1px;
+	max-width: 200px;
+}
+#scores {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+	left: 50px;
+	right: 0;
+	width: 400px;
+	height: 400px;
+	display: none;
+}
+.correct-answers-area, .incorrect-answers-area, .unanswered-questions-area {
+	font-weight: bold;
+	padding-top: 20px;
+}
+#restart-button {
+	top: ;
+}
